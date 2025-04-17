@@ -1,0 +1,31 @@
+
+
+.navszin {
+    background: rgb(31,113,171);
+background: linear-gradient(90deg, rgba(31,113,171,1) 25%, rgba(24,30,56,1) 75%); 
+}
+
+.vrule {
+    color: white;
+}
+.hrulew {
+    color: white;  
+}
+
+footer {
+    height: 250px;
+}
+
+.elerheto {
+    background-color: none;
+}
+
+.hruleb {
+    color: black;
+}
+
+
+
+
+
+ 
