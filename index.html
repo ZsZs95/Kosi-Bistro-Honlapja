@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kosi Bisztró</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="atmeretezett/kosi_logoterv2021-02.ico" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 <link
@@ -11,6 +12,7 @@
   href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
 />
     <script src="js/bootstrap.js"></script>
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     
@@ -47,7 +49,7 @@
         </div>
       </nav>
 
-      <div class="container mt-5 left">
+      <div class="container mt-5 tagline ">
         <div class="row">
           <div class="col">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -75,9 +77,9 @@
         </div>
       </div>
 
-        <h2 class="text-center mt-5">Aktuális menüajánlatunk</h2>
+        <h2 class="text-center mt-5 tagline">Aktuális menüajánlatunk</h2>
         <hr class="hrulew">
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center tagline">
           <div class="row">
             <div class="col mt-5">
               <a href="atmeretezett/novemberi_menu.jpg" data-fancybox data-caption="Novemberi menü">
@@ -124,9 +126,11 @@
         </script>
         
          
-        
-      
-    
+        <script>
+        ScrollReveal().reveal('.headline' ,{delay: 1000});
+        ScrollReveal().reveal('.tagline', { delay: 100 });
+        ScrollReveal().reveal('.punchline', { delay: 1000 });
+    </script>
 
 
 
