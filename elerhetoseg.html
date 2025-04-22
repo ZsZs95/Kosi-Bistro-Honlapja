@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elérhetőségeink</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="atmeretezett/kosi_logoterv2021-02.ico" type="image/x-icon">
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -44,7 +45,7 @@
       </div>
     </nav>
       
-      <div class="container mt-5">
+      <div class="container mt-5 tagline">
         <div class="row">
           <div class="col">
             <div class="card" style="width: 18rem;">
@@ -58,7 +59,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-sm mt-3 ">
+          <div class="col col-sm mt-3">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h2 class="card-title">Nyitvatartás</h2>
@@ -105,7 +106,12 @@
         </footer>
       </div>
 
-     
+      <script>
+        ScrollReveal().reveal('.headline' ,{delay: 1000});
+        ScrollReveal().reveal('.tagline', { delay: 100 });
+        ScrollReveal().reveal('.punchline', { delay: 1000 });
+    </script>
+
 </body>
 </html>
 

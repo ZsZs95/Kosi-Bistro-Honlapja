@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bemutatkozás</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="atmeretezett/kosi_logoterv2021-02.ico" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
-/>
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 <script src="js/bootstrap.js"></script>
 <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
@@ -53,7 +53,7 @@
       <h2 class="text-center mt-3">Bemutatkozás</h2>
       <hr class="hrulew">
 
-      <div class="container mb-5 mt-5">
+      <div class="container mb-5 mt-5 tagline">
         
           <div class="col">
             <div class="accordion" id="accordionExample">
@@ -119,10 +119,10 @@
         <footer class="navszin pt-5">
         <div class="row">
           <div class="col-md-3">
-            <img src="bootstrap-icons-1.11.3/map.svg"> 7500 Nagyatád, Kossuth u. 6.<br><br> 
-            <img src="bootstrap-icons-1.11.3/facebook.svg"><a target="_blank" href="https://www.facebook.com/kosibisztro" class="link-light"> Facebook</a><br><br> 
-           <img src="bootstrap-icons-1.11.3/instagram.svg"><a target="_blank" href="https://www.instagram.com/kosibisztro/" class="link-light"> Instagram</a><br><br>
-            <img src="bootstrap-icons-1.11.3/phone-fill.svg"> (30) 966 9990
+            <img src="map.svg"> 7500 Nagyatád, Kossuth u. 6.<br><br> 
+            <img src="facebook.svg"><a target="_blank" href="https://www.facebook.com/kosibisztro" class="link-light"> Facebook</a><br><br> 
+           <img src="instagram.svg"><a target="_blank" href="https://www.instagram.com/kosibisztro/" class="link-light"> Instagram</a><br><br>
+            <img src="phone-fill.svg"> (30) 966 9990
  
           </div>
           <div class="col-md-9 text-end d-none d-lg-block">
@@ -147,7 +147,11 @@
       </script>
 
      
-     
+<script>
+  ScrollReveal().reveal('.headline' ,{delay: 1000});
+  ScrollReveal().reveal('.tagline', { delay: 100 });
+  ScrollReveal().reveal('.punchline', { delay: 1000 });
+</script>
      
 </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Referenciáink</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="atmeretezett/kosi_logoterv2021-02.ico" type="image/x-icon">
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -47,10 +48,10 @@
       <h2 class="text-center mt-3">Referenciáink</h2>
       <hr class="hrulew">
       
-      <div class="container mb-5">
+      <div class="container mb-5 tagline">
         <div class="row">
-          <div class="col-md-4 right">
-            <div class="card">
+          <div class="col-md-4 ">
+            <div class="card h-100">
               <div class="card-body">
                 <h5 class="card-title fw-bold text-center">A Gormet Riporter interjúja</h5>
                 <hr class="hruleb">
@@ -59,8 +60,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 left">
-            <div class="card">
+          <div class="col-md-4">
+            <div class="card h-100">
               <div class="card-body">
                 <h5 class="card-title fw-bold text-center">Catering szolgáltatás</h5>
                 <hr class="hruleb">
@@ -69,8 +70,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 right">
-            <div class="card">
+          <div class="col-md-4 ">
+            <div class="card h-100">
               <div class="card-body">
                 <h5 class="card-title fw-bold text-center">Extreme Man Nagyatád</h5>
                 <hr class="hruleb">
@@ -114,6 +115,12 @@
         </div>
         </footer>
       </div>
+
+      <script>
+        ScrollReveal().reveal('.headline' ,{delay: 1000});
+        ScrollReveal().reveal('.tagline', { delay: 100 });
+        ScrollReveal().reveal('.punchline', { delay: 1000 });
+    </script>
 
       
 </body>
