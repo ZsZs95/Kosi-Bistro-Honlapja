@@ -7,3 +7,4 @@ Alklmazott technológiák:
 - CSS
 - Bootstrap
 - Fancybox Gallery
+- ScrollReveal JS
